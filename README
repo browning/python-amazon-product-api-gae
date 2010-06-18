@@ -1,0 +1,11 @@
+This is a minor fork of the python-amazon-product api located at:
+
+http://bitbucket.org/basti/python-amazon-product-api/wiki/Home
+
+That library uses lxml which is disallowed by google app engine.
+This fork replaces lxml with BeautifulSoup.
+If you are not on GAE you should use the original at the url above.
+
+TODO:
+    - add error handling like lxml python-amazon-product-api has
+    - add friendlier property calls instead of just returning the parse tree
